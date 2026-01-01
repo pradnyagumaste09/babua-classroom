@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Babua Classroom: The Logic-First LMS
+> **High-quality tech education for free.Sustainable revenue without selling courses.**
+> Built for the BPL Product Design Challenge.
 
-## Getting Started
+---
 
-First, run the development server:
+## 🎯 The Vision
+Most LMS platforms today are "Content Dhandas"—they sell hours of video but fail to build engineering grit. **Babua Classroom** is a practical, no-nonsense platform focused on **real engineering growth**. [cite: 3, 4] [cite_start]We’ve killed the paywall to focus on what matters: logic, patterns, and consistency. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🧠 Product Pillars
+**Pattern-Based Learning:** We don't teach problems; we teach the 15 core patterns (Sliding Window, Two Pointers, etc.) that solve 90% of technical interviews. 
+**Socratic AI Mentor:** Our AI refuses to give direct code. It uses the Socratic method to guide students through logic, analogies, and edge cases. 
+**Babua Talent Passport:** A data-driven profile (Streak + Trust Score) that proves a student’s consistency and honesty to recruiters. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏗️ System Features
+| Feature | Implementation | Babua Mindset |
+| :--- | :--- | :--- |
+| **LMS Core** | Next.js 14 App Router | [cite_start]Structured, fast, and no-nonsense.  |
+| **AI Hint System** | OpenAI GPT-4o-mini API | [cite_start]Double-layer guardrails to prevent cheating.  |
+| **Auth & Data** | Firebase (Google Auth) | Frictionless entry into the classroom. |
+| **Consistency** | LocalStorage + Cloud Sync | [cite_start]"Thoda thoda roj"—Gamified streak tracking.  |
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 💸 Revenue Innovation (Non-Course Sales)
+Following the BPL mandate, our revenue model is optional, low-cost, and high-value:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1.  **Babua Pro (B2C):** Personalized AI Mock Interviews and pattern-mastery evaluation (₹249/mo).
+2.  **B2B Talent Matching:** Companies pay to access the "Talent Passport" database to find verified, consistent engineers.
+3.  **Mentor Connect:** Optional, paid 1:1 office hours for deep architectural guidance.
 
-## Learn More
+## 🛠️ Tech Stack
+* **Frontend:** Next.js, TailwindCSS (Modern SaaS Aesthetic)
+* **Backend:** Next.js Serverless Functions
+* **AI Logic:** Socratic Prompt Engineering + Pattern Matching
+* **Security:** Firebase Auth & Prompt-level Guardrails
 
-To learn more about Next.js, take a look at the following resources:
+## 📌 Getting Started
+1.  **Clone the repo:** `git clone https://github.com/pradnyagumaste09/babua-classroom`
+2.  **Install dependencies:** `npm install`
+3.  **Setup Environment:** Create a `.env.local` with your `OPENAI_API_KEY` and Firebase credentials.
+4.  **Run:** `npm run dev`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### **"Jo girke uthta hai, wahi asli student hai. Wahi Babua hai."** 🚀
