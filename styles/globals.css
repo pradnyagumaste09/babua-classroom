@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 5, 5, 5;
+  --background-end-rgb: 0, 0, 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(var(--background-start-rgb));
+  color: rgb(var(--foreground-rgb));
+  /* Using a modern system font stack */
+  font-family: '__Inter_inter', 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar for that "Pro" feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fbbf24; /* yellow-400 */
+}
+
+/* Selection color - matches your branding */
+::selection {
+  background-color: rgba(250, 204, 21, 0.3);
+  color: #fff;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
