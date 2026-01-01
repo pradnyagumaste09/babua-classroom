@@ -35,11 +35,11 @@ Following the BPL mandate, our revenue model is optional, low-cost, and high-val
 
 ## 📌 Getting Started
 **How to Run Locally
-**git clone https://github.com/pradnyagumaste09/babua-classroom.git
-**cd babua-classroom
-**npm install
-**npm run dev
-**# open http://localhost:3000
+* **git clone https://github.com/pradnyagumaste09/babua-classroom.git.
+* **cd babua-classroom.
+* **npm install.
+* **npm run dev.
+* **# open http://localhost:3000.
 ---
 
 ### **"Jo girke uthta hai, wahi asli student hai. Wahi Babua hai."** 🚀
