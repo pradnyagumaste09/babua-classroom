@@ -15,10 +15,10 @@ Most LMS platforms today are "Content Dhandas"—they sell hours of video but fa
 ## 🏗️ System Features
 | Feature | Implementation | Babua Mindset |
 | :--- | :--- | :--- |
-| **LMS Core** | Next.js 14 App Router | [cite_start]Structured, fast, and no-nonsense.  |
-| **AI Hint System** | OpenAI GPT-4o-mini API | [cite_start]Double-layer guardrails to prevent cheating.  |
+| **LMS Core** | Next.js 14 App Router | Structured, fast, and no-nonsense.  |
+| **AI Hint System** | OpenAI GPT-4o-mini API | Double-layer guardrails to prevent cheating.  |
 | **Auth & Data** | Firebase (Google Auth) | Frictionless entry into the classroom. |
-| **Consistency** | LocalStorage + Cloud Sync | [cite_start]"Thoda thoda roj"—Gamified streak tracking.  |
+| **Consistency** | LocalStorage + Cloud Sync | "Thoda thoda roj"—Gamified streak tracking.  |
 
 ## 💸 Revenue Innovation (Non-Course Sales)
 Following the BPL mandate, our revenue model is optional, low-cost, and high-value:
