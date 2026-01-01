@@ -34,11 +34,12 @@ Following the BPL mandate, our revenue model is optional, low-cost, and high-val
 * **Security:** Firebase Auth & Prompt-level Guardrails
 
 ## 📌 Getting Started
-1.  **Clone the repo:** `git clone https://github.com/pradnyagumaste09/babua-classroom`
-2.  **Install dependencies:** `npm install`
-3.  **Setup Environment:** Create a `.env.local` with your `OPENAI_API_KEY` and Firebase credentials.
-4.  **Run:** `npm run dev`
-
+How to Run Locally
+git clone https://github.com/pradnyagumaste09/babua-classroom.git
+cd babua-classroom
+npm install
+npm run dev
+# open http://localhost:3000
 ---
 
 ### **"Jo girke uthta hai, wahi asli student hai. Wahi Babua hai."** 🚀
